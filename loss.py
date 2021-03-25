@@ -102,7 +102,7 @@ class LDAM_meta(nn.Module):
 
     def forward(self, fc, features, y_s, labels, ratio, weights, cv, manner):
 
-        self.estimator.update_CV(features.detach(), labels)
+        #self.estimator.update_CV(features.detach(), labels)
         aug_y = self.MetaSAug(fc, features, y_s, labels, cv, \
                                              ratio)
         if manner == "update":
