@@ -1,4 +1,4 @@
-# MetaSAug Implemented in PyTorch
+# MetaSAug: Meta Semantic Augmentation for Long-Tailed Visual Recognition
 
 ## Prerequisite
 
