@@ -26,7 +26,7 @@ python3.6 MetaSAug_LDAM_train.py --gpu 0 --lr 0.1 --lam 0.75 --imb_factor 0.05 -
 ```
 
 ## Acknowledgements
-Some codes in this project are adapted from [Meta-class-weight](https://github.com/abdullahjamal/Longtail_DA/tree/master/C-LT). We thank them for their excellent projects.
+Some codes in this project are adapted from [Meta-class-weight](https://github.com/abdullahjamal/Longtail_DA). We thank them for their excellent projects.
 
 ## Citation
 If you find this code useful for your research, please cite our paper:
