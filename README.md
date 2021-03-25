@@ -32,7 +32,7 @@ Some codes in this project are adapted from [Meta-class-weight](https://github.c
 If you find this code useful for your research, please cite our paper:
 ```
 @inproceedings{li2019MetaSAug,
-author = {Shuang Li and Kaixiong Gong and Chi Harold Liu and Yulin Wang and Feng Qiao and Xinjing Chen},
+author = {Shuang, Li and Kaixiong, Gong and Chi, Harold Liu and Yulin, Wang and Feng, Qiao and Xinjing, Chen},
 title = {MetaSAug: Meta Semantic Augmentation for Long-Tailed Visual Recognition},
 year = {2021},
 booktitle = {IEEE Conference on Computer Vision and Pattern Recognition},
