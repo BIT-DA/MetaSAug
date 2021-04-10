@@ -1,4 +1,4 @@
-# MetaSAug: Meta Semantic Augmentation for Long-Tailed Visual Recognition
+# MetaSAug: Meta Semantic Augmentation for Long-Tailed Visual Recognition (CVPR 2021)
 
 ## Prerequisite
 
