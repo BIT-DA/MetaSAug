@@ -13,6 +13,7 @@ def to_var(x, requires_grad=True):
 
 
 class MetaModule(nn.Module):
+    # adopted from: Adrien Ecoffet https://github.com/AdrienLE
     def params(self):
         for name, param in self.named_params(self):
             yield param
