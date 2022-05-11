@@ -1,5 +1,7 @@
 # MetaSAug: Meta Semantic Augmentation for Long-Tailed Visual Recognition (CVPR 2021) [arXiv](https://arxiv.org/abs/2103.12579) [pdf](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_MetaSAug_Meta_Semantic_Augmentation_for_Long-Tailed_Visual_Recognition_CVPR_2021_paper.pdf)
 
+This repository contains the code for MetaSAug: Meta Semantic Augmentation for Long-Tailed Visual Recognition.
+
 ## Prerequisite
 
 - PyTorch >= 1.2.0
