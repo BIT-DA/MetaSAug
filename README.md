@@ -1,6 +1,8 @@
 # MetaSAug: Meta Semantic Augmentation for Long-Tailed Visual Recognition
 
-This repository contains the code for **MetaSAug: Meta Semantic Augmentation for Long-Tailed Visual Recognition**.
+This repository contains the code for:
+
+**MetaSAug: Meta Semantic Augmentation for Long-Tailed Visual Recognition**.
 
 Shuang Li, Kaixiong Gong, et al.
 
