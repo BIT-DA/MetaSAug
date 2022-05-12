@@ -50,7 +50,7 @@ sh scripts/MetaSAug_LDAM_train.sh
 | MetaSAug+LDAM | 10  |10.32 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |MetaSAug+CE | 200  |10.56 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
 
 **CIFAR-LT-100**
-|   Model   | Imbalance| Top-1 Error |   Download    |Model   | Imbalance| Top-1 Error |   Download    |
+|   Model   | $\mu$| Top-1 Error |   Download    |Model   | Imbalance| Top-1 Error |   Download    |
 | --------- |:--------:|:-----------:|:-------------:|--------- |:--------:|:-----------:|:-------------:|
 | MetaSAug+LDAM | 200  |56.91 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |MetaSAug+CE | 200  |60.06 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
 | MetaSAug+LDAM | 100  |51.99 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |MetaSAug+CE | 200  |53.13 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
