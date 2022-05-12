@@ -39,6 +39,9 @@ Or run:
 sh scripts/MetaSAug_LDAM_train.sh
 ```
 
+## Results and models
+
+
 ## Acknowledgements
 Some codes in this project are adapted from [Meta-class-weight](https://github.com/abdullahjamal/Longtail_DA). We thank them for their excellent projects.
 
