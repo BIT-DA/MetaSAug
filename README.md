@@ -43,7 +43,7 @@ sh scripts/MetaSAug_LDAM_train.sh
 
 |   Model   | Top-1 Error |   Download    |
 | --------- |:-----------:|:-------------:|
-| MetaSAug+LDAM |  10.32 | [ResNet-32](https://drive.google.com/file/d/1gIzvqSBf87LA_NGi0Ov488OVBAlCsAhr/view?usp=sharing) |
+| MetaSAug+LDAM |  10.32 | - |
 
 ## Acknowledgements
 Some codes in this project are adapted from [Meta-class-weight](https://github.com/abdullahjamal/Longtail_DA). We thank them for their excellent projects.
