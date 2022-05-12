@@ -58,8 +58,16 @@ sh scripts/MetaSAug_LDAM_train.sh
 | MetaSAug+LDAM | 20  |42.47  | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |MetaSAug+CE | 20  |42.15 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
 | MetaSAug+LDAM | 10  |38.72 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |MetaSAug+CE | 10  |38.27 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
 
+**ImageNet-LT**
+| Model | Top-1 Error| Download |
+| MetaSAug |  53.33  |          |
+
+**iNaturalist18**
+| Model | Top-1 Error| Download |
+|       |            |          |
+
 ## Acknowledgements
-Some codes in this project are adapted from [Meta-class-weight](https://github.com/abdullahjamal/Longtail_DA). We thank them for their excellent projects.
+Some codes in this project are adapted from [Meta-class-weight](https://github.com/abdullahjamal/Longtail_DA), [cRT](https://github.com/facebookresearch/classifier-balancing). We thank them for their excellent projects.
 
 ## Citation
 If you find this code useful for your research, please cite our paper:
