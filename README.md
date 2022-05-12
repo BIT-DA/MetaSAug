@@ -40,10 +40,14 @@ sh scripts/MetaSAug_LDAM_train.sh
 ```
 
 ## Results and models
-
-|   Model   | Top-1 Error |   Download    |
-| --------- |:-----------:|:-------------:|
-| MetaSAug+LDAM |  10.32 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
+**CIFAR-10-LT**
+|   Model   | Imbalance| Top-1 Error |   Download    |
+| --------- |:--------:|:-----------:|:-------------:|
+| MetaSAug+LDAM | 200  |22.65 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
+| MetaSAug+LDAM | 100  |19.34 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
+| MetaSAug+LDAM | 50  |15.66 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
+| MetaSAug+LDAM | 20  |11.90  | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
+| MetaSAug+LDAM | 10  |10.32 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
 
 ## Acknowledgements
 Some codes in this project are adapted from [Meta-class-weight](https://github.com/abdullahjamal/Longtail_DA). We thank them for their excellent projects.
