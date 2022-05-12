@@ -8,6 +8,17 @@ Shuang Li, Kaixiong Gong, et al.
 
 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 2021. [[arXiv](https://arxiv.org/abs/2103.12579)]  [[pdf](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_MetaSAug_Meta_Semantic_Augmentation_for_Long-Tailed_Visual_Recognition_CVPR_2021_paper.pdf)]
 
+If you find this idea or code useful for your research, please consider citing our paper:
+```
+@inproceedings{li2021metasaug,
+  title={Metasaug: Meta semantic augmentation for long-tailed visual recognition},
+  author={Li, Shuang and Gong, Kaixiong and Liu, Chi Harold and Wang, Yulin and Qiao, Feng and Cheng, Xinjing},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={5212--5221},
+  year={2021}
+}
+```
+
 ## Prerequisite
 
 - PyTorch >= 1.2.0
@@ -19,14 +30,20 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 2021. [[a
 
 ## Evaluation
 
-For faster evaluation, we provide several pre-trained models of MetaSAug. We can use `MetaSAug_test_CE.sh` & `MetaSAug_test_LDAM.sh` to test MetaSAug with cross-entropy loss and LDAM loss, respectively. The models are stored in `checkpoints/ours`.
+We provide several trained models of MetaSAug for evaluation.
 
-Evaluation examples: 
+Testing on CIFAR-LT-10/100:
 
 - `sh scripts/MetaSAug_CE_test.sh`
 - `sh scripts/MetaSAug_LDAM_test.sh`
 
-## Training example
+Testing on ImageNet and iNaturalist18:
+
+- `sh ImageNet_iNat/test.sh`
+
+The trained models are in [Google Drive](https://drive.google.com/drive/folders/1YyE4RAniebDo8KyvdobcRfS0w5ZtMAQt?usp=sharing).
+
+## Training
 
 ```
 CIFAR-LT-100, MetaSAug with LDAM loss
@@ -70,16 +87,5 @@ sh scripts/MetaSAug_LDAM_train.sh
 
 ## Acknowledgements
 Some codes in this project are adapted from [Meta-class-weight](https://github.com/abdullahjamal/Longtail_DA) and [cRT](https://github.com/facebookresearch/classifier-balancing). We thank them for their excellent projects.
-
-## Citation
-If you find this code useful for your research, please cite our paper:
-```
-@inproceedings{li2021MetaSAug,
-author = {Li, Shuang and Gong, Kaixiong and Liu, Chi Harold and Wang, Yulin and Qiao, Feng and Cheng, Xinjing},
-title = {MetaSAug: Meta Semantic Augmentation for Long-Tailed Visual Recognition},
-year = {2021},
-booktitle = {IEEE Conference on Computer Vision and Pattern Recognition},
-}
-```
 
 
