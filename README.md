@@ -28,7 +28,7 @@ Or on ImageNet and iNaturalist18 using:
 
 - `sh ImageNet_iNat/test.sh`
 
-The trained models are in [Google Drive] (https://drive.google.com/drive/folders/1YyE4RAniebDo8KyvdobcRfS0w5ZtMAQt?usp=sharing).
+The trained models are in [Google Drive](https://drive.google.com/drive/folders/1YyE4RAniebDo8KyvdobcRfS0w5ZtMAQt?usp=sharing).
 
 ## Training example
 
