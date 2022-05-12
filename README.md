@@ -19,12 +19,11 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 2021. [[a
 
 ## Evaluation
 
-For faster evaluation, we provide several pre-trained models of MetaSAug. We can use `MetaSAug_test_CE.sh` & `MetaSAug_test_LDAM.sh` to test MetaSAug with cross-entropy loss and LDAM loss, respectively. The models are stored in `checkpoints/ours`.
-
-Evaluation examples: 
+We can directly evaluate the performance of MetaSAug using:
 
 - `sh scripts/MetaSAug_CE_test.sh`
 - `sh scripts/MetaSAug_LDAM_test.sh`
+
 
 ## Training example
 
