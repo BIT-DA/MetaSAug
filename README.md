@@ -78,13 +78,14 @@ sh scripts/MetaSAug_LDAM_train.sh
 Some codes in this project are adapted from [Meta-class-weight](https://github.com/abdullahjamal/Longtail_DA) and [cRT](https://github.com/facebookresearch/classifier-balancing). We thank them for their excellent projects.
 
 ## Citation
-If you find this code useful for your research, please cite our paper:
+If you find this idea or code useful for your research, please considering citing our paper:
 ```
-@inproceedings{li2021MetaSAug,
-author = {Li, Shuang and Gong, Kaixiong and Liu, Chi Harold and Wang, Yulin and Qiao, Feng and Cheng, Xinjing},
-title = {MetaSAug: Meta Semantic Augmentation for Long-Tailed Visual Recognition},
-year = {2021},
-booktitle = {IEEE Conference on Computer Vision and Pattern Recognition},
+@inproceedings{li2021metasaug,
+  title={Metasaug: Meta semantic augmentation for long-tailed visual recognition},
+  author={Li, Shuang and Gong, Kaixiong and Liu, Chi Harold and Wang, Yulin and Qiao, Feng and Cheng, Xinjing},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={5212--5221},
+  year={2021}
 }
 ```
 
