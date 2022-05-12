@@ -43,7 +43,7 @@ Testing on ImageNet and iNaturalist18:
 
 The trained models are in [Google Drive](https://drive.google.com/drive/folders/1YyE4RAniebDo8KyvdobcRfS0w5ZtMAQt?usp=sharing).
 
-## Training example
+## Training
 
 ```
 CIFAR-LT-100, MetaSAug with LDAM loss
