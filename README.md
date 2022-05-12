@@ -67,7 +67,7 @@ sh scripts/MetaSAug_LDAM_train.sh
 |       |            |          |
 
 ## Acknowledgements
-Some codes in this project are adapted from [Meta-class-weight](https://github.com/abdullahjamal/Longtail_DA), [cRT](https://github.com/facebookresearch/classifier-balancing). We thank them for their excellent projects.
+Some codes in this project are adapted from [Meta-class-weight](https://github.com/abdullahjamal/Longtail_DA) and [cRT](https://github.com/facebookresearch/classifier-balancing). We thank them for their excellent projects.
 
 ## Citation
 If you find this code useful for your research, please cite our paper:
