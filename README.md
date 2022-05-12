@@ -41,13 +41,13 @@ sh scripts/MetaSAug_LDAM_train.sh
 
 ## Results and models
 **CIFAR-10-LT**
-|   Model   | Imbalance| Top-1 Error |   Download    |
-| --------- |:--------:|:-----------:|:-------------:|
-| MetaSAug+LDAM | 200  |22.65 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
-| MetaSAug+LDAM | 100  |19.34 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
-| MetaSAug+LDAM | 50  |15.66 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
-| MetaSAug+LDAM | 20  |11.90  | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
-| MetaSAug+LDAM | 10  |10.32 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
+|   Model   | Imbalance| Top-1 Error |   Download    |Model   | Imbalance| Top-1 Error |   Download    |
+| --------- |:--------:|:-----------:|:-------------:|--------- |:--------:|:-----------:|:-------------:|
+| MetaSAug+LDAM | 200  |22.65 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |MetaSAug+CE | 200  |23.11 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
+| MetaSAug+LDAM | 100  |19.34 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |MetaSAug+CE | 200  |19.46 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
+| MetaSAug+LDAM | 50  |15.66 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |MetaSAug+CE | 200  |15.97 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
+| MetaSAug+LDAM | 20  |11.90  | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |MetaSAug+CE | 200  |12.36 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
+| MetaSAug+LDAM | 10  |10.32 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |MetaSAug+CE | 200  |10.56 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
 
 ## Acknowledgements
 Some codes in this project are adapted from [Meta-class-weight](https://github.com/abdullahjamal/Longtail_DA). We thank them for their excellent projects.
