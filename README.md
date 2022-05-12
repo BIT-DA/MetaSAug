@@ -60,10 +60,12 @@ sh scripts/MetaSAug_LDAM_train.sh
 
 **ImageNet-LT**
 | Model | Top-1 Error| Download |
+| --------- |:--------:|:-----------:|
 | MetaSAug |  53.33  | [ResNet50]()|
 
 **iNaturalist18**
 | Model | Top-1 Error| Download |
+| --------- |:--------:|:-----------:|
 | MetaSAug |  30.50  | [ResNet50]()|
 
 ## Acknowledgements
