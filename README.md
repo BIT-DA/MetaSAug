@@ -44,19 +44,19 @@ sh scripts/MetaSAug_LDAM_train.sh
 |   Model   | Imb.| Top-1 Error |   Download    |Model   | Imb.| Top-1 Error |   Download    |
 | --------- |:--------:|:-----------:|:-------------:|--------- |:--------:|:-----------:|:-------------:|
 | MetaSAug+LDAM | 200  |22.65 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |MetaSAug+CE | 200  |23.11 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
-| MetaSAug+LDAM | 100  |19.34 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |MetaSAug+CE | 200  |19.46 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
-| MetaSAug+LDAM | 50  |15.66 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |MetaSAug+CE | 200  |15.97 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
-| MetaSAug+LDAM | 20  |11.90  | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |MetaSAug+CE | 200  |12.36 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
-| MetaSAug+LDAM | 10  |10.32 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |MetaSAug+CE | 200  |10.56 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
+| MetaSAug+LDAM | 100  |19.34 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |MetaSAug+CE | 100  |19.46 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
+| MetaSAug+LDAM | 50  |15.66 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |MetaSAug+CE | 50  |15.97 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
+| MetaSAug+LDAM | 20  |11.90  | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |MetaSAug+CE | 20  |12.36 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
+| MetaSAug+LDAM | 10  |10.32 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |MetaSAug+CE | 10  |10.56 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
 
 **CIFAR-LT-100**
 |   Model   | Imb.| Top-1 Error |   Download    |Model   | Imb.| Top-1 Error |   Download    |
 | --------- |:--------:|:-----------:|:-------------:|--------- |:--------:|:-----------:|:-------------:|
 | MetaSAug+LDAM | 200  |56.91 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |MetaSAug+CE | 200  |60.06 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
-| MetaSAug+LDAM | 100  |51.99 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |MetaSAug+CE | 200  |53.13 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
-| MetaSAug+LDAM | 50  |47.73 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |MetaSAug+CE | 200  |48.10 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
-| MetaSAug+LDAM | 20  |42.47  | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |MetaSAug+CE | 200  |42.15 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
-| MetaSAug+LDAM | 10  |38.72 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |MetaSAug+CE | 200  |38.27 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
+| MetaSAug+LDAM | 100  |51.99 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |MetaSAug+CE | 100  |53.13 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
+| MetaSAug+LDAM | 50  |47.73 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |MetaSAug+CE | 50  |48.10 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
+| MetaSAug+LDAM | 20  |42.47  | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |MetaSAug+CE | 20  |42.15 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
+| MetaSAug+LDAM | 10  |38.72 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |MetaSAug+CE | 10  |38.27 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
 
 ## Acknowledgements
 Some codes in this project are adapted from [Meta-class-weight](https://github.com/abdullahjamal/Longtail_DA). We thank them for their excellent projects.
