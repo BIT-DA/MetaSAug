@@ -60,11 +60,11 @@ sh scripts/MetaSAug_LDAM_train.sh
 
 **ImageNet-LT**
 | Model | Top-1 Error| Download |
-| MetaSAug |  53.33  |          |
+| MetaSAug |  53.33  | [ResNet50]()|
 
 **iNaturalist18**
 | Model | Top-1 Error| Download |
-|       |            |          |
+| MetaSAug |  30.50  | [ResNet50]()|
 
 ## Acknowledgements
 Some codes in this project are adapted from [Meta-class-weight](https://github.com/abdullahjamal/Longtail_DA) and [cRT](https://github.com/facebookresearch/classifier-balancing). We thank them for their excellent projects.
