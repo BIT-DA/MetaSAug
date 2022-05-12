@@ -19,12 +19,12 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 2021. [[a
 
 ## Evaluation
 
-We can directly evaluate the performance of MetaSAug on cifar datasets using:
+We can directly evaluate the performance of MetaSAug on cifar datasets:
 
 - `sh scripts/MetaSAug_CE_test.sh`
 - `sh scripts/MetaSAug_LDAM_test.sh`
 
-Or on ImageNet and iNaturalist18 using:
+Testing on ImageNet and iNaturalist18:
 
 - `sh ImageNet_iNat/test.sh`
 
