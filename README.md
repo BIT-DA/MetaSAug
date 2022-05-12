@@ -41,7 +41,6 @@ sh scripts/MetaSAug_LDAM_train.sh
 
 ## Results and models
 **CIFAR-LT-10**
-$\nu$
 |   Model   | Imb.| Top-1 Error |   Download    |Model   | Imb.| Top-1 Error |   Download    |
 | --------- |:--------:|:-----------:|:-------------:|--------- |:--------:|:-----------:|:-------------:|
 | MetaSAug+LDAM | 200  |22.65 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |MetaSAug+CE | 200  |23.11 | [ResNet32](https://github.com/BIT-DA/MetaSAug/tree/main/checkpoint/ours) |
