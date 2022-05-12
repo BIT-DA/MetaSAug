@@ -8,6 +8,17 @@ Shuang Li, Kaixiong Gong, et al.
 
 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 2021. [[arXiv](https://arxiv.org/abs/2103.12579)]  [[pdf](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_MetaSAug_Meta_Semantic_Augmentation_for_Long-Tailed_Visual_Recognition_CVPR_2021_paper.pdf)]
 
+If you find this idea or code useful for your research, please consider citing our paper:
+```
+@inproceedings{li2021metasaug,
+  title={Metasaug: Meta semantic augmentation for long-tailed visual recognition},
+  author={Li, Shuang and Gong, Kaixiong and Liu, Chi Harold and Wang, Yulin and Qiao, Feng and Cheng, Xinjing},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={5212--5221},
+  year={2021}
+}
+```
+
 ## Prerequisite
 
 - PyTorch >= 1.2.0
@@ -76,17 +87,5 @@ sh scripts/MetaSAug_LDAM_train.sh
 
 ## Acknowledgements
 Some codes in this project are adapted from [Meta-class-weight](https://github.com/abdullahjamal/Longtail_DA) and [cRT](https://github.com/facebookresearch/classifier-balancing). We thank them for their excellent projects.
-
-## Citation
-If you find this idea or code useful for your research, please considering citing our paper:
-```
-@inproceedings{li2021metasaug,
-  title={Metasaug: Meta semantic augmentation for long-tailed visual recognition},
-  author={Li, Shuang and Gong, Kaixiong and Liu, Chi Harold and Wang, Yulin and Qiao, Feng and Cheng, Xinjing},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={5212--5221},
-  year={2021}
-}
-```
 
 
