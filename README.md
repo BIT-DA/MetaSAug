@@ -51,16 +51,33 @@ The trained models are in [Google Drive](https://drive.google.com/drive/folders/
 - [iNaturalist2017](https://github.com/visipedia/inat_comp/tree/master/2017): A natural long-tailed dataset.
 - [iNaturalist2018](https://github.com/visipedia/inat_comp/tree/master/2018): A natural long-tailed dataset.
 
+### Training
+
+Training on CIFAR-LT-10/100:
 ```
 CIFAR-LT-100, MetaSAug with LDAM loss
 python3.6 MetaSAug_LDAM_train.py --gpu 0 --lr 0.1 --lam 0.75 --imb_factor 0.05 --dataset cifar100 --num_classes 100 --save_name MetaSAug_cifar100_LDAM_imb0.05 --idx 1
 ```
 
-Or run:
+Or run the script:
 
 ```
 sh scripts/MetaSAug_LDAM_train.sh
 ```
+
+Training on ImageNet-LT:
+
+```
+CUDA_VISIBLE_DEVICES=0,1,2,3 python3 -m torch.distributed.launch --nproc_per_node=4 --master_port 53212 train.py  --lr 0.0003 --meta_lr 0.1 --workers 0 --batch_size 256 --epochs 20 --dataset ImageNet_LT --num_classes 1000 --data_root ../ImageNet
+```
+
+Or run the script:
+
+```
+sh ImageNet_iNat/scripts/train.sh
+```
+
+**Note**: Training on large scale datasets like ImageNet-LT and iNaturalist2017/2018 involves multiple gpus for faster speed. To achieve better generalizable representations, vanilla CE loss is used for training the network in the early training stage. 
 
 ## Results and models
 **CIFAR-LT-10**
