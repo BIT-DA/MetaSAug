@@ -43,7 +43,7 @@ Testing on ImageNet and iNaturalist18:
 
 The trained models are in [Google Drive](https://drive.google.com/drive/folders/1YyE4RAniebDo8KyvdobcRfS0w5ZtMAQt?usp=sharing).
 
-## Training
+## Getting Started
 
 **Dataset**
 - Long-tailed CIFAR10/100: The long-tailed version of CIFAR10/100. Code for coverting to long-tailed version is in [data_utils.py](https://github.com/BIT-DA/MetaSAug/blob/main/data_utils.py).
