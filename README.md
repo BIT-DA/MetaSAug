@@ -14,6 +14,7 @@ Real-world training data usually exhibits long-tailed distribution, where severa
 
 <p align="center">
 <img src="assets/illustration.png" alt="drawing" width="400"/>
+<img src="assets/illustration.png" alt="drawing" width="400"/>
 </p>  
  
 
