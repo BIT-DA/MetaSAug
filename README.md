@@ -45,6 +45,12 @@ The trained models are in [Google Drive](https://drive.google.com/drive/folders/
 
 ## Training
 
+**Dataset**
+- Long-tailed CIFAR10/100: The long-tailed version of CIFAR10/100.
+- ImageNet-LT: The long-tailed version of ImageNet. 
+- [iNaturalist2017](https://github.com/visipedia/inat_comp/tree/master/2017): A natural long-tailed dataset.
+- [iNaturalist2018](https://github.com/visipedia/inat_comp/tree/master/2012): A natural long-tailed dataset.
+
 ```
 CIFAR-LT-100, MetaSAug with LDAM loss
 python3.6 MetaSAug_LDAM_train.py --gpu 0 --lr 0.1 --lam 0.75 --imb_factor 0.05 --dataset cifar100 --num_classes 100 --save_name MetaSAug_cifar100_LDAM_imb0.05 --idx 1
