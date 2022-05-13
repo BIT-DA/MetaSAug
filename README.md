@@ -46,8 +46,8 @@ The trained models are in [Google Drive](https://drive.google.com/drive/folders/
 ## Training
 
 **Dataset**
-- Long-tailed CIFAR10/100: The long-tailed version of CIFAR10/100.
-- ImageNet-LT: The long-tailed version of ImageNet. [Long-tailed list](https://github.com/BIT-DA/MetaSAug/tree/main/ImageNet_iNat/data).
+- Long-tailed CIFAR10/100: The long-tailed version of CIFAR10/100. Code for coverting to long-tailed version is in training file.
+- ImageNet-LT: The long-tailed version of ImageNet. [[Long-tailed list](https://github.com/BIT-DA/MetaSAug/tree/main/ImageNet_iNat/data)]
 - [iNaturalist2017](https://github.com/visipedia/inat_comp/tree/master/2017): A natural long-tailed dataset.
 - [iNaturalist2018](https://github.com/visipedia/inat_comp/tree/master/2012): A natural long-tailed dataset.
 
