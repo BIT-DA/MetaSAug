@@ -84,7 +84,7 @@ sh scripts/MetaSAug_LDAM_train.sh
 **ImageNet-LT**
 | Model | Top-1 Error| Download |
 | --------- |:--------:|:-----------:|
-| MetaSAug |  53.33  | [ResNet50](https://drive.google.com/drive/folders/1HuaMsPCcR4DV1Tev9dHxd4BGU7mxJuqZ?usp=sharing)|
+| MetaSAug |  52.33  | [ResNet50](https://drive.google.com/drive/folders/1HuaMsPCcR4DV1Tev9dHxd4BGU7mxJuqZ?usp=sharing)|
 
 **iNaturalist18**
 | Model | Top-1 Error| Download |
