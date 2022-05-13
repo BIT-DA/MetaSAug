@@ -77,7 +77,7 @@ Or run the script:
 sh ImageNet_iNat/scripts/train.sh
 ```
 
-**Note**: Training on large scale datasets like ImageNet-LT and iNaturalist2017/2018 involves multiple gpus for faster speed. To achieve better generalizable representations, vanilla CE loss is used for training the network in the early training stage. For convenience, the training starts from the pre-trained models, e.g., [ImageNet-LT](https://dl.fbaipublicfiles.com/classifier-balancing/ImageNet_LT/models/resnet50_uniform_e90.pth), [iNat18](https://dl.fbaipublicfiles.com/classifier-balancing/iNaturalist18/models/resnet50_uniform_e200.pth) (both from project [cRT](https://github.com/facebookresearch/classifier-balancing)).
+**Note**: Training on large scale datasets like ImageNet-LT and iNaturalist2017/2018 involves multiple gpus for faster speed. To achieve better generalizable representations, vanilla CE loss is used for training the network in the early training stage. For convenience, the training starts from the pre-trained models using instance sampling, e.g., [ImageNet-LT](https://dl.fbaipublicfiles.com/classifier-balancing/ImageNet_LT/models/resnet50_uniform_e90.pth), [iNat18](https://dl.fbaipublicfiles.com/classifier-balancing/iNaturalist18/models/resnet50_uniform_e200.pth) (both from project [cRT](https://github.com/facebookresearch/classifier-balancing)).
 
 ## Results and models
 **CIFAR-LT-10**
