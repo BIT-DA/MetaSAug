@@ -1,18 +1,15 @@
+
+<div align="center">
 # MetaSAug: Meta Semantic Augmentation for Long-Tailed Visual Recognition
-
-This repository contains the code for:
-
-**MetaSAug: Meta Semantic Augmentation for Long-Tailed Visual Recognition**.
 
 Shuang Li, Kaixiong Gong, et al.
 
 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 2021.  [[pdf](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_MetaSAug_Meta_Semantic_Augmentation_for_Long-Tailed_Visual_Recognition_CVPR_2021_paper.pdf)]
-
-
-<div align="center">
  
 [![Paper](https://img.shields.io/badge/paper-arxiv.2208.01195-B31B1B.svg)](https://arxiv.org/abs/2103.12579)
 </div>
+ 
+This repository contains the code of our CVPR 2021 work "MetaSAug: Meta Semantic Augmentation for Long-Tailed Visual Recognition".
  
 #### Abstract
 
