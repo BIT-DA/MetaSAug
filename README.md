@@ -9,9 +9,10 @@ Shuang Li, Kaixiong Gong, et al.
 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 2021.  [[pdf](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_MetaSAug_Meta_Semantic_Augmentation_for_Long-Tailed_Visual_Recognition_CVPR_2021_paper.pdf)]
 
 
-<div align="center">    
+<div align="center">
+ 
 [![Paper](https://img.shields.io/badge/paper-arxiv.2208.01195-B31B1B.svg)](https://arxiv.org/abs/2103.12579)
-</div/
+</div>
  
 #### Abstract
 
