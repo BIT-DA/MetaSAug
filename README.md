@@ -5,13 +5,21 @@
 
 Shuang Li, Kaixiong Gong, et al.
 
-IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2021.  [[pdf](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_MetaSAug_Meta_Semantic_Augmentation_for_Long-Tailed_Visual_Recognition_CVPR_2021_paper.pdf)]
+IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2021.  [[CVPR 2021 PDF](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_MetaSAug_Meta_Semantic_Augmentation_for_Long-Tailed_Visual_Recognition_CVPR_2021_paper.pdf)]
  
 [![Paper](https://img.shields.io/badge/paper-arxiv.2208.01195-B31B1B.svg)](https://arxiv.org/abs/2103.12579)
 </div>
  
 This repository contains the code of our CVPR 2021 work "MetaSAug: Meta Semantic Augmentation for Long-Tailed Visual Recognition".
- 
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/metasaug-meta-semantic-augmentation-for-long/long-tail-learning-on-cifar-100-lt-r-200)](https://paperswithcode.com/sota/long-tail-learning-on-cifar-100-lt-r-200?p=metasaug-meta-semantic-augmentation-for-long)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/metasaug-meta-semantic-augmentation-for-long/long-tail-learning-on-cifar-10-lt-r-200)](https://paperswithcode.com/sota/long-tail-learning-on-cifar-10-lt-r-200?p=metasaug-meta-semantic-augmentation-for-long)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/metasaug-meta-semantic-augmentation-for-long/long-tail-learning-on-cifar-10-lt-r-50)](https://paperswithcode.com/sota/long-tail-learning-on-cifar-10-lt-r-50?p=metasaug-meta-semantic-augmentation-for-long)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/metasaug-meta-semantic-augmentation-for-long/long-tail-learning-on-cifar-10-lt-r-10)](https://paperswithcode.com/sota/long-tail-learning-on-cifar-10-lt-r-10?p=metasaug-meta-semantic-augmentation-for-long)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/metasaug-meta-semantic-augmentation-for-long/long-tail-learning-on-cifar-100-lt-r-50)](https://paperswithcode.com/sota/long-tail-learning-on-cifar-100-lt-r-50?p=metasaug-meta-semantic-augmentation-for-long)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/metasaug-meta-semantic-augmentation-for-long/long-tail-learning-on-cifar-10-lt-r-100)](https://paperswithcode.com/sota/long-tail-learning-on-cifar-10-lt-r-100?p=metasaug-meta-semantic-augmentation-for-long)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/metasaug-meta-semantic-augmentation-for-long/image-classification-on-inaturalist)](https://paperswithcode.com/sota/image-classification-on-inaturalist?p=metasaug-meta-semantic-augmentation-for-long)
+
 #### Abstract
 
 Real-world training data usually exhibits long-tailed distribution, where several majority classes have a significantly larger number of samples than the remaining minority classes. This imbalance degrades the performance of typical supervised learning algorithms designed for balanced training sets. In this paper, we address this issue by augmenting minority classes with a recently proposed implicit semantic data augmentation (ISDA) algorithm, which produces diversified augmented samples by translating deep features along many semantically meaningful directions. Importantly, given that ISDA estimates the classconditional statistics to obtain semantic directions, we find it ineffective to do this on minority classes due to the insufficient training data. To this end, we propose a novel approach to learn transformed semantic directions with metalearning automatically. In specific, the augmentation strategy during training is dynamically optimized, aiming to minimize the loss on a small balanced validation set, which is approximated via a meta update step. Extensive empirical results on CIFAR-LT-10/100, ImageNet-LT, and iNaturalist2017/2018 validate the effectiveness of our method
